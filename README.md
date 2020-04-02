@@ -10,7 +10,7 @@ Sequence of operation:
 4. else creates new directory with system date as name
 5. copies data using adb pull from device to path
 
-internal storage files(user files)- directly use adb pull command
-root directory and other directories- opens adb shell as superuser,copies file to user directory,copies using adb pull, deleted file from user directory
+Internal storage files(user files)- directly use adb pull command.
+Root directory and other directories- opens adb shell as superuser,copies file to user directory,copies using adb pull, deleted file from user directory
 
 p.s. Add time to directory name or add additional checks to directory if you are gonna take backups more than once per day.
